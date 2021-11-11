@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactToPrint from "react-to-print";
 import Template from "../images/sertifikat.jpg"
-import Logo from "../images/logo.png"
+
 
 class ComponentToPrint extends React.Component {
     render() {
@@ -11,14 +11,14 @@ class ComponentToPrint extends React.Component {
           
         <div className="flex justify-center w-full h-full bg-gray-900 bg-opacity-50">
             <div className="text-center">
-                {/* <img alt="" src={Logo} w-1 h-1 /> */}
+              
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">Certificate of Appreciation</h1>
                 <br />
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">14.U/MMXXI-0170</h1>
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">Presented with our deepest gratitude to</h1>
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">Luisa Munster, M.Psi., Psikolog</h1>
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">for you informative sharing at Wardaya Festival titled</h1>
-                <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">"Webinar Parenting</h1>
+                <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">"Webinar Parenting"</h1>
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">on behalf of Kayross Consulting</h1>
                 <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">on August 6th, 2021</h1>
                 
